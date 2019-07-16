@@ -1,0 +1,20 @@
+.MuiButtonBase-root.MuiIconButton-root {
+    float: right !important;
+    color: #c7bcab !important;
+}
+.MuiList-root.MuiMenu-list.MuiList-padding{
+    background-color: #1b1b1b;
+}
+a {
+    text-decoration: none;
+}
+.MuiPaper-rounded {
+    border-radius: 0 !important;
+}
+.MuiMenuItem-gutters {
+    color: #c7bcab !important;
+}
+.navbar {
+    height: 6vh;
+    background-color: #1b1b1b;
+}

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Athene';
+  src: url('./assets/Athene.otf')
+}
+body {
+  font-family: 'Catamaran', sans-serif;
+}
 .App {
   text-align: center;
 }

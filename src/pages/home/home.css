@@ -1,0 +1,42 @@
+.title {
+    background-image: url(../../assets/wheel.jpg);
+    height: 36vh;
+    font-size: 95px;
+    font-family: Athene;
+    padding-top: 11.5%;
+    opacity: .9;
+}
+h1 {
+    background-color: #aa8957b2;
+    display: inline;
+    padding: 3% !important;
+}
+a {
+    color: #1b1b1b;
+    font-family: 'Catamaran', sans-serif !important;
+    font-size: 30px !important;
+}
+.link {
+    padding: 0 2% !important; 
+}
+a:hover {
+    text-decoration: underline;
+    color: #a38658 !important;
+}
+.links {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.border {
+    border-top: 1px solid #a38658;
+    width: 50vw;
+    margin: auto;
+}
+.icon {
+    font-size: 40px;
+    padding: 3%;
+    transition: all 200ms ease-in;
+}
+.icon:hover {
+    transform: scale(1.5);
+}
