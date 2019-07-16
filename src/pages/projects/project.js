@@ -1,8 +1,9 @@
 import React from 'react'
+import './projects.css'
 
 const Projects = _ => {
     return (
-        <h1>project page</h1>
+        <h2 className="subtitle">Projects</h2>
     )
 }
 

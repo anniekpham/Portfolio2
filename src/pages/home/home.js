@@ -12,8 +12,8 @@ function Home() {
             <h1>Annie Pham</h1>
         </div>
         <nav className="links">
-            <span className='link'><Link to="/Projects">Projects</Link></span>
             <span className='link'><Link to="/About">About</Link></span>
+            <span className='link'><Link to="/Projects">Projects</Link></span>
             <span className='link'><Link to="/Contact">Contact</Link></span>
             <span className='link'><Link to="/Resume">Resume</Link></span>
         </nav>

@@ -39,7 +39,7 @@ const Navbar = _ => {
                 onClose={handleClose}
                 PaperProps={{
                 style: {
-                    maxHeight: ITEM_HEIGHT * 4.5,
+                    maxHeight: ITEM_HEIGHT * 6,
                     width: 250,
                     marginTop: 53.5
                 },
@@ -48,6 +48,11 @@ const Navbar = _ => {
                 <Link to="/" onClick={handleClose}>
                     <MenuItem>
                             Home
+                    </MenuItem>
+                </Link>
+                <Link to="/About" onClick={handleClose}>
+                    <MenuItem>
+                            About
                     </MenuItem>
                 </Link>
                 <Link to="/Projects" onClick={handleClose}>

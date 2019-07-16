@@ -1,8 +1,9 @@
 import React from 'react'
+import './resume.css'
 
 const Resume = _ => {
     return (
-        <h1>Resume Page</h1>
+        <h2 className="subtitle">Resume</h2>
     )
 }
 

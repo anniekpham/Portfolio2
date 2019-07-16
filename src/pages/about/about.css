@@ -1,0 +1,29 @@
+.subtitle {
+    font-family: Athene;
+    font-size: 55px;
+    color: #202020;
+    border-bottom: 2px solid #a38658;
+    max-width: 25vw;
+    padding-bottom: 1%;
+    margin: auto;
+    margin-top: 2%;
+}
+.aboutcontainer {
+    width: 70vw;
+    margin: auto;
+    margin-top: 4%;
+}
+.picture {
+    float: left;
+    border-radius: 100%;
+    padding-right: 2%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+.abouttext{
+    padding-top: 1%;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 23px;
+    word-spacing: 8px;
+    line-height: 28px;
+}
