@@ -1,16 +1,17 @@
-.title {
+/* .title {
     background-image: url(../../assets/wheel.jpg);
-    height: 36vh;
+    height: 40vh;
     font-size: 95px;
     font-family: Athene;
-    padding-top: 11.5%;
+    padding-top: 5%;
     opacity: .9;
-}
-h1 {
+} */
+/* .name {
     background-color: #aa8957b2;
-    display: inline;
     padding: 3% !important;
-}
+    width: 270px;
+    margin: auto;
+} */
 a {
     color: #1b1b1b;
     font-family: 'Catamaran', sans-serif !important;
@@ -32,11 +33,80 @@ a:hover {
     width: 50vw;
     margin: auto;
 }
-.icon {
-    font-size: 40px;
+.icon1, .icon2, .icon3 {
+    font-size: 45px;
     padding: 3%;
     transition: all 200ms ease-in;
 }
-.icon:hover {
+.icon1:hover, .icon2:hover, .icon3:hover {
     transform: scale(1.5);
+}
+.icon2{
+    color: #0077b5;
+}
+.icon3 {
+    color: #4267b2;
+}
+.name {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+.title {
+    padding-top: 5%;
+}
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/wheel.jpg);
+    opacity: .75;
+}
+.name1 {
+    position: relative;
+    width: 750px;
+    height: 285px;
+    margin: auto;
+    font-size: 95px;
+    border-top: 2px solid #1b1b1b;
+    border-left: 2px solid #1b1b1b;
+}
+.sub1 {
+    position: relative;
+    font-family: 'Catamaran', sans-serif !important;
+    width: 750px;
+    height: 115px;
+    font-size: 75px;
+    /* font-weight: bold; */
+    margin: auto;
+    border-bottom: 2px solid #1b1b1b;
+    border-right: 2px solid #1b1b1b;
+}
+h1 {
+    position: absolute;
+    color: #1b1b1b;
+    font-family: Athene !important;
+    font-size: 130px !important;
+    width: 700px;
+    height: 280px;
+    top: .1em;
+    left: -.2em;
+    text-align: center;
+    border-top: 2px solid #1b1b1b !important;
+    border-left: 2px solid #1b1b1b !important;
+}
+h3 {
+    color: #1b1b1b;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    width: 703px;
+    height: 105px;
+    margin: auto;
+    text-align: center;
+    padding-top: 4% !important;
+    border-bottom: 2px solid #1b1b1b !important;
+    border-right: 2px solid #1b1b1b !important;
 }
