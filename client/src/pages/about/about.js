@@ -29,7 +29,7 @@ const About = _ => {
             <div className="container">
                 <h2 className="subtitle">Hello World,</h2>
                 <div className="aboutcontainer">
-                    <img src={Picture} className="picture"></img>
+                    <img src={Picture} className="picture" />
                     <p className="abouttext">and welcome to my portfolio! My name is Annie and I am a Full-Stack Web Developer located in Monclair, California. I graduated from Cal State Fullerton with a degree in Business Management. However, ever since learning how to code I've fell in love with programing and never look back. I am passionate about learning new languages and developing cool new applications that are fun and useful, so I would love to collaborate on new projects!</p>
                     <div className={classes.root} id="maincontainer">
                         <Grid container spacing={3}>

@@ -16,7 +16,6 @@
     border-radius: 50% !important;
 }
 .aws-btn__content{
-    background-color: #715fac !important;
     padding-top: 5% !important;
 }
 .aws-btn--primary .aws-btn__wrapper:before {
@@ -45,4 +44,10 @@
     font-size: 20px;
     margin-top: 2%;
     visibility: hidden;
+}
+.container {
+    text-align: center;
+}
+#sendicon {
+    font-size: 25px !important
 }

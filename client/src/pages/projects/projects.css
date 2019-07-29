@@ -12,3 +12,39 @@
     height: 100vh;
     position: relative;
 }
+.projectcontainer {
+    max-height: 80vh;
+    overflow: auto;
+}
+.projectimg {
+    width: 35%;
+    float: left;
+    margin-right: 3%
+}
+.vertical-timeline-element-title {
+    font-size: 25px;
+    padding-bottom: 2%
+}
+.aws-btn__content {
+    font-size: 18px !important;
+    font-weight: 100;
+}
+.projectbtn {
+    margin-left: 2% !important;
+}
+.vertical-timeline-element-content {
+    background-color: #d4c6b1 !important
+}
+.vertical-timeline::before {
+    background: #494949 !important
+}
+.vertical-timeline-element-icon {
+    background: #202020 !important
+}
+.projectinfo {
+    display: block;
+    margin-bottom: 2%
+}
+.projectdesc {
+    margin-top: 0 !important;
+}

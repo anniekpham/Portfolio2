@@ -10,12 +10,12 @@ function Home() {
     <div id="home">
         <header class="name">
            <div className="background"></div>
-            <div class="title">
+            <div class="title1">
                 <div class="name1">
                     <h1 className="first">Annie Pham</h1>
                 </div>
-                <div class="sub1">
-                    <h3>Full-Stack Developer</h3>
+                <div class="subtitle1">
+                    <h3 className="subtitle2">Full-Stack Developer</h3>
                 </div>
             </div>
         </header>

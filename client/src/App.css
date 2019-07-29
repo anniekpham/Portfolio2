@@ -6,7 +6,7 @@
   font-family: 'Catamaran', sans-serif !important;
 }
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 body {
@@ -21,7 +21,8 @@ body {
   padding-bottom: 1%;
   margin: auto;
   margin-top: 2%;
+  text-align: center;
 }
-.container {
+.container, .container1 {
   padding-top: 80px
 }
