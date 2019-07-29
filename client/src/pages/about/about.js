@@ -1,15 +1,71 @@
 import React from 'react'
 import './about.css'
 import Picture from '../../assets/picture.jpg'
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid'
+
+const useStyles = makeStyles(theme => ({
+    root: {
+      flexGrow: 1,
+    },
+    paper: {
+      padding: theme.spacing(2),
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+    },
+  }));
+  
 
 const About = _ => {
+    const classes = useStyles();
+
+    const frontend = ['React', 'Javascript', 'Html', 'API', 'CSS', 'Bootstrap', 'Material-UI']
+    const databases = ['MySQL', 'MongoDB', 'Firebase']
+    const others = ['Node.js', 'Github']
+
     return (
         <div id="about">
             <div className="container">
-                <h2 className="subtitle">Annie Pham</h2>
+                <h2 className="subtitle">Hello World,</h2>
                 <div className="aboutcontainer">
                     <img src={Picture} className="picture"></img>
-                    <p className="abouttext">Praesent consequat molestie placerat. Integer mattis purus non tincidunt interdum. Aliquam non justo eget elit dapibus tristique. Nulla risus eros, molestie id lacus vel, cursus vulputate erat. Proin non commodo urna. Sed eget egestas ante. Proin ut egestas lacus. Vestibulum volutpat purus ac nisl lobortis scelerisque. Donec vel tortor sed lorem finibus viverra at vitae arcu. Phasellus dapibus vel neque et consequat. Phasellus sodales venenatis felis, a dapibus elit lacinia commodo. Aliquam non sapien metus. Proin ultricies eget velit a maximus. Phasellus egestas diam at nunc semper sollicitudin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a lectus rutrum, fringilla urna sed, dictum felis. Curabitur gravida sollicitudin fringilla. Sed ullamcorper vitae mauris a tempor. Proin vel aliquam felis. Duis non fermentum urna, placerat suscipit dolor. Praesent interdum semper auctor. Integer dapibus sit amet quam id condimentum. Ut id facilisis ex, a cursus ante. In egestas nisi lectus, non mollis est viverra eu. Curabitur risus quam, placerat et luctus in, ornare ut arcu.</p>
+                    <p className="abouttext">and welcome to my portfolio! My name is Annie and I am a Full-Stack Web Developer located in Monclair, California. I graduated from Cal State Fullerton with a degree in Business Management. However, ever since learning how to code I've fell in love with programing and never look back. I am passionate about learning new languages and developing cool new applications that are fun and useful, so I would love to collaborate on new projects!</p>
+                    {/* <header className="tech">Programs I've worked with:</header> */}
+                    <div className={classes.root} id="maincontainer">
+                        <Grid container spacing={3}>
+                            <Grid item lg={4} md={6} xs={12} className="gridcontainer">
+                            <Paper className={classes.paper}>
+                                <p className="programs">Frontend</p>
+                                {frontend.map(program => (
+                                    <>
+                                        <p className="program">- {program}</p>
+                                    </>
+                                ))}
+                            </Paper>
+                            </Grid>
+                            <Grid item lg={4} md={6} xs={12} className="gridcontainer">
+                            <Paper className={classes.paper}>
+                                <p className="programs">Database</p>
+                                {databases.map(program => (
+                                    <>
+                                        <p className="program">- {program}</p>
+                                    </>
+                                ))}
+                            </Paper>
+                            </Grid>
+                            <Grid item lg={4} md={6} xs={12} className="gridcontainer">
+                            <Paper className={classes.paper}>
+                                <p className="programs">Others</p>
+                                {others.map(program => (
+                                    <>
+                                        <p className="program">- {program}</p>
+                                    </>
+                                ))}
+                            </Paper>
+                            </Grid>
+                        </Grid>
+                    </div>
                 </div>
             </div>
         </div>

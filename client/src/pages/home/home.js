@@ -15,7 +15,7 @@ function Home() {
                     <h1 className="first">Annie Pham</h1>
                 </div>
                 <div class="sub1">
-                    <h3>Full-stack Developer</h3>
+                    <h3>Full-Stack Developer</h3>
                 </div>
             </div>
         </header>
