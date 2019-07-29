@@ -3,7 +3,11 @@ import './projects.css'
 
 const Projects = _ => {
     return (
-        <h2 className="subtitle">Projects</h2>
+        <div id="projects">
+            <div className="container">
+                <h2 className="subtitle">Projects</h2>
+            </div>
+        </div>
     )
 }
 

@@ -1,18 +1,18 @@
     
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link, animateScroll as scroll } from "react-scroll";
 import './home.css'
 import { FaGithub, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 
 function Home() {
 
   return (
-    <>
+    <div id="home">
         <header class="name">
            <div className="background"></div>
             <div class="title">
                 <div class="name1">
-                    <h1>Annie Pham</h1>
+                    <h1 className="first">Annie Pham</h1>
                 </div>
                 <div class="sub1">
                     <h3>Full-stack Developer</h3>
@@ -20,10 +20,51 @@ function Home() {
             </div>
         </header>
         <nav className="links">
-            <span className='link'><Link to="/About">About</Link></span>
-            <span className='link'><Link to="/Projects">Projects</Link></span>
-            <span className='link'><Link to="/Contact">Contact</Link></span>
-            <span className='link'><Link to="/Resume">Resume</Link></span>
+            <Link
+                className='link'
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                // offset={-180}
+                duration= {500}
+            >Home</Link>
+            <Link
+                activeClass="active"
+                className='link'
+                to="about"
+                spy={true}
+                smooth={true}
+                // offset={-100}
+                duration= {500}
+            >About</Link>
+            <Link
+                activeClass="active"
+                className='link'
+                to="projects"
+                spy={true}
+                smooth={true}
+                // offset={-100}
+                duration= {500}
+            >Projects</Link>
+            <Link
+                activeClass="active"
+                className='link'
+                to="contact"
+                spy={true}
+                smooth={true}
+                // offset={-80}
+                duration= {500}
+            >Contact</Link>
+            <Link
+                activeClass="active"
+                to="resume"
+                className='link'
+                spy={true}
+                smooth={true}
+                // offset={-80}
+                duration= {500}
+            >Resume</Link>
         </nav>
         <div className="border"></div>
         <div className="logos">
@@ -31,7 +72,7 @@ function Home() {
             <a href="https://www.linkedin.com/in/annie-pham-15a789147/"><FaLinkedin className="icon2"/></a>
             <a href="https://www.facebook.com/annie.k.pham?ref=bookmarks"><FaFacebookSquare className="icon3"/></a>
         </div>
-    </>
+    </div>
   );
 }
 

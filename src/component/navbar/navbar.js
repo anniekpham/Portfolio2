@@ -1,10 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import IconButton from '@material-ui/core/IconButton';
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import './navbar.css'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const ITEM_HEIGHT = 48;
 
@@ -21,56 +25,105 @@ const Navbar = _ => {
         setAnchorEl(null);
     }
 
+    const useStyles = makeStyles(theme => ({
+        root: {
+          flexGrow: 1,
+        },
+        menuButton: {
+          marginRight: theme.spacing(2),
+        },
+        title: {
+          flexGrow: 1,
+        },
+      }));
+
+      const classes = useStyles();
     return (
         <nav className="navbar">
-            <IconButton
-                aria-label="More"
-                aria-controls="long-menu"
-                aria-haspopup="true"
-                onClick={handleClick}
-            >
-            <MoreVertIcon />
-            </IconButton>
-            <Menu
-                id="long-menu"
-                anchorEl={anchorEl}
-                keepMounted
-                open={open}
-                onClose={handleClose}
-                PaperProps={{
-                style: {
-                    maxHeight: ITEM_HEIGHT * 6,
-                    width: 250,
-                    marginTop: 53.5
-                },
-                }}
-            >
-                <Link to="/" onClick={handleClose}>
-                    <MenuItem>
-                            Home
-                    </MenuItem>
-                </Link>
-                <Link to="/About" onClick={handleClose}>
-                    <MenuItem>
-                            About
-                    </MenuItem>
-                </Link>
-                <Link to="/Projects" onClick={handleClose}>
-                    <MenuItem>
-                            Projects
-                    </MenuItem>
-                </Link>
-                <Link to="/Contact" onClick={handleClose}>
-                    <MenuItem>
-                            Contact
-                    </MenuItem>
-                </Link>
-                <Link to="/Resume" onClick={handleClose}>
-                    <MenuItem>
-                            Resume
-                    </MenuItem>
-                </Link>
-            </Menu>
+            <div className={classes.root}>
+            <AppBar position="fixed">
+                <Toolbar>
+                    <IconButton
+                        aria-label="More"
+                        aria-controls="long-menu"
+                        aria-haspopup="true"                       
+                        onClick={handleClick}
+                        >
+                    <MoreVertIcon />
+                    </IconButton>
+                    <Menu
+                        id="long-menu"
+                        anchorEl={anchorEl}
+                        keepMounted
+                        open={open}
+                        onClose={handleClose}
+                        PaperProps={{
+                            style: {
+                                maxHeight: ITEM_HEIGHT * 6,
+                                width: 250,
+                                marginTop: 53.5
+                            },
+                        }}
+                        >
+                        <Link
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            duration= {500}
+                            // offset={-150}
+                            onClick={handleClose}
+                            >
+                            <MenuItem className="navlink">Home</MenuItem>
+                        </Link>
+                        <Link
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            duration= {500}
+                            // offset={-100}
+                            onClick={handleClose}
+                            >
+                            <MenuItem className="navlink">About</MenuItem>
+                        </Link>
+                        <Link
+                            activeClass="active"
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            duration= {500}
+                            // offset={-100}
+                            onClick={handleClose}
+                            >
+                            <MenuItem className="navlink">Projects</MenuItem>
+                        </Link>
+                        <Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration= {500}
+                            // offset={-80}
+                            onClick={handleClose}
+                            >
+                            <MenuItem className="navlink">Contact</MenuItem>
+                        </Link>
+                        <Link
+                            activeClass="active"
+                            to="resume"
+                            spy={true}
+                            smooth={true}
+                            duration= {500}
+                            // offset={-80}
+                            onClick={handleClose}
+                            >
+                            <MenuItem className="navlink">Resume</MenuItem>
+                        </Link>
+                    </Menu>
+                </Toolbar>
+            </AppBar>
+            </div> 
         </nav>
     )
 }

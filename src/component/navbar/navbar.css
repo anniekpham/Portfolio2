@@ -14,7 +14,15 @@ a {
 .MuiMenuItem-gutters {
     color: #c7bcab !important;
 }
-.navbar {
+.MuiAppBar-colorPrimary {
     height: 6vh;
-    background-color: #1b1b1b;
+    background-color: #1b1b1b !important;
+}
+.MuiPaper-elevation4 {
+    box-shadow: none !important;
+}
+.navlink:hover {
+    text-decoration: underline;
+    color: #a38658 !important;
+    background: #1b1b1b !important;
 }

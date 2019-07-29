@@ -1,4 +1,4 @@
-.subtitle {
+/* .subtitle {
     font-family: Athene;
     font-size: 55px;
     color: #202020;
@@ -7,7 +7,8 @@
     padding-bottom: 1%;
     margin: auto;
     margin-top: 2%;
-}
+    border-right: 2px solid #a38658
+} */
 .aboutcontainer {
     width: 70vw;
     margin: auto;
@@ -26,4 +27,8 @@
     font-size: 23px;
     word-spacing: 8px;
     line-height: 28px;
+}
+#about {
+    height: 100vh;
+    position: relative;
 }

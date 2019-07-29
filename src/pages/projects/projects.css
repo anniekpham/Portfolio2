@@ -8,3 +8,7 @@
     margin: auto;
     margin-top: 2%;
 }
+#projects {
+    height: 100vh;
+    position: relative;
+}

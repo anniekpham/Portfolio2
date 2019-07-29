@@ -6,10 +6,12 @@
     "@material-ui/core": "^4.1.3",
     "@material-ui/icons": "^4.2.1",
     "react": "^16.8.6",
+    "react-awesome-button": "^6.1.2",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.12"
   },
   "scripts": {
     "start": "react-scripts start",

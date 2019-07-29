@@ -20,9 +20,9 @@ a {
 .link {
     padding: 0 2% !important; 
 }
-a:hover {
-    text-decoration: underline;
-    color: #a38658 !important;
+.link:hover {
+    color: #a38658;
+    cursor: pointer;
 }
 .links {
     margin-top: 2%;
@@ -109,4 +109,7 @@ h3 {
     padding-top: 4% !important;
     border-bottom: 2px solid #1b1b1b !important;
     border-right: 2px solid #1b1b1b !important;
+}
+#home {
+    height: 100vh;
 }
