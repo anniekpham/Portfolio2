@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Super Street Battle",
+        "description": "A strategy game for car enthusiasts, to battle others to game money and upgrade car stats.",
+        "technologies": "MERN stack application, Firebase Auth, Javascript, Bootstrap and CSS.",
+        "github": "https://github.com/super-street-battle/super-street-battle",
+        "site": "https://superstreetbattle.herokuapp.com/Login",
+        "date": "July 2019"
+    },
+    {
+        "name": "Porcelain",
+        "description": "A Yelp/Instagram inspired restroom finder application. Because when you gotta go you gotta know!",
+        "technologies": "MySQL, Node.js, React, Express, AWS, Google Map API, Javascript, and Bootstrap.",
+        "github": "https://github.com/mjanders6/porcelain",
+        "site": "https://sheltered-cliffs-91931.herokuapp.com",
+        "date": "June 2019"
+    },
+    {
+        "name": "Day Out",
+        "description": "Want to plan your day in a specific area but don't know what to do, where to go, or how to get there? Well then this app is just what you need!",
+        "technologies": "Javascript, Firebase Auth, Firestore, Yelp API, Mapquest API, and Materialize.",
+        "github": "https://github.com/fliptosideb/ACSO6OASO1T10",
+        "site": "https://day-out-7bc8d.firebaseapp.com/",
+        "date": "April 2019"
+    },
+    {
+        "name": "Harry Potter RPG",
+        "description": "An RPG game featuring key characters in the Harry Potter franchise. Where you must pick your hero and battle the 3 remaining characters.",
+        "technologies": "Javascript, HTML, and CSS.",
+        "github": "https://github.com/anniekpham/Harry-Potter-RPG",
+        "site": "https://anniekpham.github.io/Harry-Potter-RPG/",
+        "date": "March 2019"
+    }
+]
