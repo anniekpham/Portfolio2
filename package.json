@@ -27,7 +27,9 @@
     "concurrently": "^4.1.1",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "if-env": "^1.0.4",
     "nodemailer": "^6.3.0",
+    "prop-types": "^15.7.2",
     "react-pdf": "^4.1.0",
     "react-vertical-timeline-component": "^2.4.0"
   }
