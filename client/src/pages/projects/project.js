@@ -23,7 +23,7 @@ const Projects = _ => {
                             >
                             <div className="projectinfo">
                                 <h3 className="vertical-timeline-element-title">Super Street Battle</h3>
-                                <img className='projectimg' src={img1} alt="Super Stret Battle"/>
+                                <img className='projectimg' src={img1} alt="Super Street Battle"/>
                                 <p className='projectdesc'>A strategy game for car enthusiasts, to battle others to game money and upgrade car stats</p>
                                 <p className='projectdesc'>Technologies used: MERN stack application, Firebase Auth, Javascript, Bootstrap and CSS</p>
                             </div>

@@ -11,3 +11,6 @@
 #resume {
     height: 100vh;
 }
+.react-pdf__Page__canvas {
+    margin: auto !important;
+}
