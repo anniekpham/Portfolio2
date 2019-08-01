@@ -1,13 +1,4 @@
-.subtitle {
-    font-family: Athene;
-    font-size: 55px;
-    color: #202020;
-    border-bottom: 2px solid #a38658;
-    max-width: 25vw;
-    padding-bottom: 1%;
-    margin: auto;
-    margin-top: 2%;
-}
+
 #contact {
     height: 100vh;
 }
@@ -50,4 +41,42 @@
 }
 #sendicon {
     font-size: 25px !important
+}
+@media only screen and (min-height: 1366px) {
+    .makeStyles-textField-174, .MuiFormControl-root {
+        width: 70vw !important;
+    }
+    .MuiInputBase-input.MuiInput-input {
+        font-size: 30px !important;
+        padding-top: 3% !important;
+    }
+    label {
+        font-size: 30px !important; 
+    }
+    .MuiInputBase-multiline {
+        /* padding: 17px 0 7px !important; */
+    }
+}
+@media only screen and (min-height: 1024px) {
+    .makeStyles-textField-174, .MuiFormControl-root {
+        width: 70vw !important;
+    }
+    .MuiInputBase-input.MuiInput-input {
+        font-size: 20px !important;
+        padding-top: 2% !important;
+    }
+    label {
+        font-size: 20px !important; 
+    }
+    .aws-btn {
+        margin-top: 5% !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .makeStyles-textField-174, .MuiFormControl-root {
+        width: 70vw !important;
+    }
+    .aws-btn {
+        margin-top: 5% !important;
+    }
 }

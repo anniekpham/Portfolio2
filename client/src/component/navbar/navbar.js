@@ -41,7 +41,7 @@ const Navbar = _ => {
     return (
         <nav className="navbar">
             <div className={classes.root}>
-            <AppBar position="fixed">
+            <AppBar position="fixed" className="navbar">
                 <Toolbar>
                     <IconButton
                         aria-label="More"
@@ -49,7 +49,7 @@ const Navbar = _ => {
                         aria-haspopup="true"                       
                         onClick={handleClick}
                         >
-                    <MoreVertIcon />
+                    <MoreVertIcon className="menuicon"/>
                     </IconButton>
                     <Menu
                         id="long-menu"

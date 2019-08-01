@@ -45,3 +45,100 @@
 .makeStyles-container-173 {
     display: block !important;
 }
+@media only screen and (max-width: 1472px) {
+    .picture {
+        width: 25%;
+    }
+}
+@media only screen and (min-height: 1366px) {
+    .aboutcontainer {
+        width: 88vw;
+    }
+    .abouttext {
+        font-size: 33px;
+        line-height: 58px;
+    }
+    .picture {
+        width: 27%;
+    }
+    .program {
+        font-size: 32px;
+    }
+}
+@media only screen and (min-height: 1024px) {
+    .aboutcontainer {
+        width: 88vw;
+    }
+    .abouttext {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .picture {
+        width: 27%;
+    }
+    .program {
+        font-size: 25px;
+    }
+    #about {
+        height: 160vh !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #about {
+        height: 160vh !important;
+    }
+    .picture {
+        width: 35%;
+    }
+    .aboutcontainer {
+        width: 88vw;
+    }
+    .abouttext {
+        font-size: 20px;
+        line-height: 27px;
+        padding-top: 3%
+    }
+    .programs {
+        font-size: 28px;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 380px) {
+    #about {
+        height: 180vh !important;
+    }
+    .abouttext {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .program {
+        font-size: 19px;
+    }
+    .programs {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .abouttext {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .program {
+        font-size: 17px;
+    }
+    .programs {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .abouttext {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .program {
+        font-size: 15px;
+    }
+    .programs {
+        font-size: 20px;
+    }
+}
