@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom'
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -9,6 +8,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import './navbar.css'
 import { Link, animateScroll as scroll } from "react-scroll";
+import file from '../../APResume.pdf'
 
 const ITEM_HEIGHT = 48;
 
@@ -71,7 +71,6 @@ const Navbar = _ => {
                             spy={true}
                             smooth={true}
                             duration= {500}
-                            // offset={-150}
                             onClick={handleClose}
                             >
                             <MenuItem className="navlink">Home</MenuItem>
@@ -82,7 +81,6 @@ const Navbar = _ => {
                             spy={true}
                             smooth={true}
                             duration= {500}
-                            // offset={-100}
                             onClick={handleClose}
                             >
                             <MenuItem className="navlink">About</MenuItem>
@@ -93,7 +91,6 @@ const Navbar = _ => {
                             spy={true}
                             smooth={true}
                             duration= {500}
-                            // offset={-100}
                             onClick={handleClose}
                             >
                             <MenuItem className="navlink">Projects</MenuItem>
@@ -104,22 +101,14 @@ const Navbar = _ => {
                             spy={true}
                             smooth={true}
                             duration= {500}
-                            // offset={-80}
                             onClick={handleClose}
                             >
                             <MenuItem className="navlink">Contact</MenuItem>
                         </Link>
-                        <Link
-                            activeClass="active"
-                            to="resume"
-                            spy={true}
-                            smooth={true}
-                            duration= {500}
-                            // offset={-80}
-                            onClick={handleClose}
-                            >
+                        <a href={file} target = "_blank">
                             <MenuItem className="navlink">Resume</MenuItem>
-                        </Link>
+                        </a>
+
                     </Menu>
                 </Toolbar>
             </AppBar>

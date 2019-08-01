@@ -20,9 +20,9 @@ const useStyles = makeStyles(theme => ({
 const About = _ => {
     const classes = useStyles();
 
-    const frontend = ['React', 'Javascript', 'Html', 'API', 'CSS', 'Bootstrap', 'Material-UI']
-    const databases = ['MySQL', 'MongoDB', 'Firebase']
-    const others = ['Node.js', 'Github']
+    const frontend = ['API', 'Bootstrap', 'CSS', 'HTML', 'JavaScript', 'jQuery', 'Materialize', 'React']
+    const databases = ['AWS', 'Firebase', 'MongoDB', 'MySQL']
+    const others = ['Github', 'MERN Stack', 'Node.js']
 
     return (
         <div id="about">

@@ -3,6 +3,7 @@ import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './home.css'
 import { FaGithub, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
+import file from '../../APResume.pdf'
 
 function Home() {
 
@@ -56,15 +57,7 @@ function Home() {
                 // offset={-80}
                 duration= {500}
             >Contact</Link>
-            <Link
-                activeClass="active"
-                to="resume"
-                className='link'
-                spy={true}
-                smooth={true}
-                // offset={-80}
-                duration= {500}
-            >Resume</Link>
+            <a href={file} target = "_blank">Resume</a>
         </nav>
         <div className="border"></div>
         <div className="logos">

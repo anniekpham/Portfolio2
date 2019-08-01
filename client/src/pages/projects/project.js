@@ -32,7 +32,7 @@ const Projects = _ => {
                                         <h3 className="vertical-timeline-element-title">{name}</h3>
                                         <img className='projectimg' src={portfolioState.images[i]} alt={name}/>
                                         <p className='projectdesc'>{description}</p>
-                                        <p className='projectdesc'>Technologies used: {technologies}}</p>
+                                        <p className='projectdesc'>Technologies used: {technologies}</p>
                                     </div>
                                     <a href={github}>
                                         <AwesomeButton
