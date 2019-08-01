@@ -32,10 +32,9 @@
 .gridcontainer {
     margin-top: 3% !important;
 }
-.makeStyles-paper-69 {
+#program1, #program2, #program3 {
     background-color: #a3865883 !important;
     color:  #1b1b1b !important;
-    
 }
 .program {
     font-size: 20px

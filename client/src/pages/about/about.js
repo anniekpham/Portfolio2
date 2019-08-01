@@ -34,7 +34,7 @@ const About = _ => {
                     <div className={classes.root} id="maincontainer">
                         <Grid container spacing={3}>
                             <Grid item lg={4} md={6} xs={12} className="gridcontainer">
-                            <Paper className={classes.paper}>
+                            <Paper className={classes.paper} id="program1">
                                 <p className="programs">Frontend</p>
                                 {frontend.map(program => (
                                     <>
@@ -44,7 +44,7 @@ const About = _ => {
                             </Paper>
                             </Grid>
                             <Grid item lg={4} md={6} xs={12} className="gridcontainer">
-                            <Paper className={classes.paper}>
+                            <Paper className={classes.paper} id="program2">
                                 <p className="programs">Database</p>
                                 {databases.map(program => (
                                     <>
@@ -54,7 +54,7 @@ const About = _ => {
                             </Paper>
                             </Grid>
                             <Grid item lg={4} md={6} xs={12} className="gridcontainer">
-                            <Paper className={classes.paper}>
+                            <Paper className={classes.paper} id="program3">
                                 <p className="programs">Others</p>
                                 {others.map(program => (
                                     <>

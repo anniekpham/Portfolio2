@@ -11,9 +11,9 @@
 #contact {
     height: 100vh;
 }
-.makeStyles-container-68 {
+#contactcontainer {
     display: block !important;
-    border-radius: 50% !important;
+    /* border-radius: 50% !important; */
 }
 .aws-btn__content{
     padding-top: 5% !important;
