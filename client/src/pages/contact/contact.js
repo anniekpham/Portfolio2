@@ -81,7 +81,7 @@ const Contact = _ => {
                             required
                             id="standard-name"
                             label="First Name"
-                            style={{ width: "25vw", marginRight: "6vw" }}
+                            style={{ width: "27vw"}}
                             className={classes.textField}
                             margin="normal"
                             inputRef={firstname}
@@ -90,7 +90,7 @@ const Contact = _ => {
                             required
                             id="standard-name"
                             label="Last Name"
-                            style={{ width: "25vw"  }}
+                            style={{ width: "28vw"  }}
                             className={classes.textField}
                             margin="normal"
                             inputRef={lastname}

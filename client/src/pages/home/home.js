@@ -57,7 +57,7 @@ function Home() {
                 // offset={-80}
                 duration= {500}
             >Contact</Link>
-            <a href={file} target = "_blank">Resume</a>
+            <a href={file} className='link' target = "_blank">Resume</a>
         </nav>
         <div className="border"></div>
         <div className="logos">

@@ -26,3 +26,26 @@ a {
     color: #a38658 !important;
     background: #1b1b1b !important;
 }
+@media only screen and (max-width: 1472px) {
+    .MuiToolbar-regular {
+        min-height: 55px !important;
+    }
+  }
+@media only screen and (min-height: 1366px) {
+    .navlink{
+        font-size: 1.5rem !important
+    }
+    .MuiButtonBase-root.MuiIconButton-root {
+        height: 81px !important;
+        width: 81px !important;
+    }
+    .menuicon {
+        font-size: 50px !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .navbar {
+        height: 50px;
+    }
+
+}
