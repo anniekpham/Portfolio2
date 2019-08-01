@@ -103,8 +103,10 @@ a {
 .logos {
     text-align: center;
 }
-
 @media only screen and (max-width: 1472px) {
+    /* .title1 {
+        padding-top: 4% !important;
+    } */
     .first {
         font-size: 110px !important;
         width: 660px;
@@ -132,8 +134,8 @@ a {
     .links {
         margin-top: 5%;
     }
-  }
-  @media only screen and (min-height: 1366px) {
+}
+@media only screen and (min-height: 1366px) {
     .title1 {
         padding-top: 24% !important;
     }
@@ -145,9 +147,9 @@ a {
     }
   }
   @media only screen and (min-height: 1024px) {
-    .title1 {
-        padding-top: 18% !important;
-    }
+      .title1 {
+          padding-top: 18% !important;
+        }
     .link {
         font-size: 35px !important;
     }
@@ -255,5 +257,10 @@ a {
     }
     .icon1, .icon2, .icon3 {
         font-size: 30px !important;
+    }
+}
+@media only screen and (max-width: 1920px) {
+    .title1 {
+        padding-top: 6% !important;
     }
 }
