@@ -50,7 +50,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../../assets/wheel.jpg);
-    opacity: .75;
+    opacity: .65;
 }
 .name1 {
     position: relative;
@@ -103,6 +103,11 @@ a {
 .logos {
     text-align: center;
 }
+@media only screen and (max-width: 1920px) {
+    .title1 {
+        padding-top: 6% !important;
+    }
+}
 @media only screen and (max-width: 1472px) {
     /* .title1 {
         padding-top: 4% !important;
@@ -123,6 +128,11 @@ a {
     .subtitle1 {
         width: 710px;
     }
+  }
+  @media only screen and (max-width: 1367px) {
+      .title1 {
+          padding-top: 4% !important;
+      }
   }
   @media only screen and (max-width: 1024px) {
     .name1 {
@@ -146,7 +156,7 @@ a {
         font-size: 55px !important;
     }
   }
-  @media only screen and (min-height: 1024px) {
+  @media only screen and (max-width: 800px) {
       .title1 {
           padding-top: 18% !important;
         }
@@ -222,7 +232,7 @@ a {
         font-size: 20px !important;
     }
     .title1 {
-        padding-top: 32% !important;
+        padding-top: 23% !important;
     }
 }
 @media only screen and (max-width: 360px) {
@@ -253,14 +263,9 @@ a {
         font-size: 17px !important;
     }
     .title1 {
-        padding-top: 32% !important;
+        padding-top: 23% !important;
     }
     .icon1, .icon2, .icon3 {
         font-size: 30px !important;
-    }
-}
-@media only screen and (max-width: 1920px) {
-    .title1 {
-        padding-top: 6% !important;
     }
 }
