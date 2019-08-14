@@ -55,7 +55,7 @@ body {
   padding-top: 100px
 }
 .subtitle {
-  font-family: Athene !important;
+  /* font-family: Athene !important; */
   font-size: 55px;
   color: #202020;
   border-bottom: 2px solid #a38658;
