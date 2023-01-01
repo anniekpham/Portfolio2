@@ -30,7 +30,7 @@
     "if-env": "^1.0.4",
     "nodemailer": "^6.3.0",
     "prop-types": "^15.7.2",
-    "react-pdf": "^4.1.0",
+    "react-pdf": "^6.2.1",
     "react-vertical-timeline-component": "^2.4.0"
   }
 }
